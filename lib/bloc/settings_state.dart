@@ -5,7 +5,7 @@ abstract class SettingsState {}
 
 class SettingsInitial extends SettingsState {}
 
-class SettingsListResponse extends SettingsState {
+class SettingsListState extends SettingsState {
   final Map<String, List<SettingItem>>  settingsList;
-  SettingsListResponse(this.settingsList);
+  SettingsListState(this.settingsList);
 }

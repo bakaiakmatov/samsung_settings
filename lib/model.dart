@@ -228,4 +228,5 @@ class SettingItem {
         "icon": icon,
         "group": group,
       };
+
 }

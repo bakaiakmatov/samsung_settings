@@ -29,8 +29,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc: ^7.3.1
+  flutter_bloc: ^8.0.0
   collection: ^1.14.13
+  anim_search_bar: ^2.0.2
 
 
 
