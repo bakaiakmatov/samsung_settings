@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/bloc/settings_bloc.dart';
+import 'package:flutter_application_1/bloc/settings_bloc/settings_bloc.dart';
 import 'package:flutter_application_1/constants/colors.dart';
+import 'package:flutter_application_1/test.dart';
 import 'package:flutter_application_1/widgets/search_button.dart';
 import 'package:flutter_application_1/widgets/settings_content.dart';
 import 'package:flutter_application_1/widgets/sliver_bar_component.dart';
@@ -29,8 +30,9 @@ class HomeScreen extends StatelessWidget {
                 centerTitle: true,
                 title: SliverBarComponent(),
               ),
-              actions: [
-             const   SearchButton(),
+              actions: const [
+                // SearchButton(),
+                SearchButton()
               ],
             ),
           ];
